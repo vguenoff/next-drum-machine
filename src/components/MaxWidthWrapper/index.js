@@ -1,2 +1,2 @@
-export * from './MaxWidthWrapper';
-export { default } from './MaxWidthWrapper';
+export * from "./MaxWidthWrapper";
+export { default } from "./MaxWidthWrapper";

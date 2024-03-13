@@ -1,17 +1,14 @@
-import React from 'react';
-import styles from './MaxWidthWrapper.module.css';
+import React from "react";
+import styles from "./MaxWidthWrapper.module.css";
 
 function MaxWidthWrapper({
   children,
-  as: Tag = 'div',
-  className = '',
+  as: Tag = "div",
+  className = "",
   ...delegated
 }) {
   return (
-    <Tag
-      {...delegated}
-      className={`${styles.wrapper} ${className}`}
-    >
+    <Tag {...delegated} className={`${styles.wrapper} ${className}`}>
       {children}
     </Tag>
   );

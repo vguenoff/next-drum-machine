@@ -50,10 +50,9 @@ h6 {
 body {
   display: flex;
   flex-direction: column;
-  background-image: url('/wallpaper.jpg');
+  background-image: url("/wallpaper.jpg");
 
-  font-family: 'Comic Sans MS', cursive,
-    sans-serif;
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 h1 {
@@ -85,9 +84,6 @@ footer span {
 
 /* Scrollbar and selection styles */
 ::selection {
-  background-color: var(
-    --selection-background-color,
-    hsl(50deg 100% 78%)
-  );
+  background-color: var(--selection-background-color, hsl(50deg 100% 78%));
   color: var(--selection-text-color, black);
 }

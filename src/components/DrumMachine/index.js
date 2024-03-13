@@ -1,2 +1,2 @@
-export * from './DrumMachine';
-export { default } from './DrumMachine';
+export * from "./DrumMachine";
+export { default } from "./DrumMachine";
